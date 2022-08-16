@@ -1,0 +1,38 @@
+<div class="front rain orange"></div>
+<div class="rain beige"></div>
+<div class="circle orange"></div>
+<style>
+  body {
+    background: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #dd6b4d;
+  }
+  .rain {
+    border-radius: 50% 0 50% 50%;
+  }
+  .orange {
+    background: #F3AC3C;
+  }
+  .circle {
+    top: 30px;
+    left: 200px;
+    z-index: 1;
+    border-radius: 50%;
+  }
+  .beige {
+    background: #998235;
+    z-index: 2;
+  }
+  .front {
+    top: 150px;
+    left: 80px;
+    z-index: 3;
+  }
+</style>
