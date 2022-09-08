@@ -1,0 +1,37 @@
+<div class="outer">
+  <div class="inner green"></div>
+  <div class="inner yellow"></div>
+  <div class="inner white"></div>
+</div>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E3516E;
+  }
+  .outer {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #E3516E;
+    flex-wrap: wrap;
+  }
+  .inner {
+    width: 100px;
+    height: 100px;
+  }
+  .green {
+    background: #51B5A9;
+    border-radius: 100% 0 0 0;
+  }
+  .yellow {
+    background: #FADE8B;
+    border-radius: 0 100% 0 0 ;
+  }
+  .white {
+    background: #F7F3D7;
+    border-radius: 0 0 0 100%;
+  }
+</style>

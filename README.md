@@ -6,3 +6,5 @@ My solutions for CSS Battle
 2. Carrom
 3. Push Button
 4. Ups n Downs
+5. Acid Rain
+6. Missing Slice
