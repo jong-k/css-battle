@@ -8,3 +8,4 @@ My solutions for CSS Battle
 4. Ups n Downs
 5. Acid Rain
 6. Missing Slice
+7. Leafy Trail
