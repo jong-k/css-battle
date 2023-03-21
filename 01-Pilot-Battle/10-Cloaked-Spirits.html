@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="sm col">
+        <div class="circle outer brown">
+            <div class="circle inner orange"></div>
+        </div>
+    </div>
+    <div class="lg col">
+        <div class="circle outer orange">
+            <div class="circle inner brown"></div>
+        </div>
+    </div>
+    <div class="sm col">
+        <div class="circle outer brown">
+            <div class="circle inner orange"></div>
+        </div>
+    </div>
+</div>
+<style>
+	body {
+		background: #62306D;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+	}
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	.col {
+		width: 100px;
+		background: #F7EC7D;
+	}
+	.sm {
+		height: 100px;
+	}
+	.lg {
+		height: 200px;
+	}
+	.circle {
+		border-radius: 50%;
+	}
+	.orange {
+		background: #E38F66;
+	}
+	.brown {
+		background: #AA445F;
+	}
+	.outer {
+		width: 100px;
+		height: 100px;
+		position: relative;
+		bottom: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.inner {
+		width: 60px;
+		height: 60px;
+	}
+</style>
