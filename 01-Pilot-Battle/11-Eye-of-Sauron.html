@@ -1,0 +1,96 @@
+<main>
+  <div id="first" class="size-m circle">
+    <div class="up rect dark"></div>
+    <div class="down rect yellow"></div>
+    <div class="size-s circle dark"></div>
+  </div>
+  <div id="second" class="size-m circle dark">
+    <div class="size-s circle"></div>
+  </div>
+  <div id="third" class="size-m circle">
+    <div class="up rect yellow"></div>
+    <div class="down rect dark"></div>
+    <div class="size-s circle dark"></div>
+  </div>
+  <div class="size-l circle yellow"></div>
+</main>
+<style>
+	body {
+		background: #191210;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	main {
+		display: flex;
+		position: relative;
+	}
+	.rect {
+		width: 100px;
+		height: 50px;
+	}
+	.circle {
+		border-radius: 50%;
+	}
+	.dark {
+		background: #191210;
+	}
+	.yellow {
+		background: #ECA03D;
+	}
+	#first {
+		position: relative;
+		z-index: -5;
+	}
+	#first .down {
+		border-radius: 0 0 50px 50px;
+	}
+	#first .size-s {
+		background: #191210;
+		position: absolute;
+		top: 20%;
+		left: 20%;
+	}
+	#second {
+		background: #191210;
+		position: relative;
+	}
+	#second .size-s {
+		background: #84271C;
+		position: absolute;
+		top: 25%;
+		left: 25%;
+		z-index: 99;
+		width: 50px;
+		height: 50px;
+	}
+	#third {
+		position: relative;
+		z-index: -5;
+	}
+	#third .up {
+		border-radius: 50px 50px 0 0;
+	}
+	#third .size-s {
+		background: #191210;
+		position: absolute;
+		top: 20%;
+		left: 20%;
+	}
+	.size-s {
+		width: 60px;
+		height: 60px;
+	}
+	.size-m {
+		width: 100px;
+		height: 100px;
+	}
+	.size-l {
+		width: 140px;
+		height: 140px;
+		position: absolute;
+		top: -20%;
+		left: 26.5%;
+		z-index: -1;
+	}
+</style>
